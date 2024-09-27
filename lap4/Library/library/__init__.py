@@ -232,7 +232,7 @@ def main():
                 if books:
                     print(Fore.GREEN + Style.BRIGHT + f"Books by {author_name}:")
                     for book in books:
-                        print(Fore.GREEN + Style.BRIGHT + book)
+                        print(Fore.GREEN + Style.BRIGHT + str(book))
                 else:
                     print(Fore.RED + Style.BRIGHT + f"No books found for author '{author_name}'.")
                 
